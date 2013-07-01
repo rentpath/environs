@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['colin.rymer@gmail.com']
   spec.description   = %q{A simple wrapper around the ENV hash that by default raises an error when value requested is not set.}
   spec.summary       = spec.description
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/primedia/environs"
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
