@@ -1,6 +1,7 @@
 # Environs
+[![Code Climate](https://codeclimate.com/github/primedia/environs.png)](https://codeclimate.com/github/primedia/environs)
 
-TODO: Write a gem description
+A simple wrapper around the ENV hash that by default raises an error when value requested is not set.
 
 ## Installation
 
@@ -18,7 +19,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'environs'
+
+Env.foo # Returns the contents of ENV['FOO'] if set.
+
+# => 'MissingEnvVarError "The FOO environment variable is not set."'
+```
 
 ## Contributing
 
