@@ -1,6 +1,7 @@
 # Environs
 [![Code Climate](https://codeclimate.com/github/primedia/environs.png)](https://codeclimate.com/github/primedia/environs)
 
+
 A simple wrapper around the ENV hash that by default raises an error when value requested is not set.
 
 ## Installation
@@ -18,6 +19,8 @@ Or install it yourself as:
     $ gem install environs
 
 ## Usage
+
+This gem provides an `Env` class that dynamically retrieves environment variables based on the name of the method called on the `Env` class object. Method names are converted to `SCREAMING_SNAKE_CASE`, e.g. `Env.foo_bar` tries to retrieve `ENV['FOO_BAR']`. If a non-nil value is not returned for the key, then an error is raised. Nil values can be allowed by passing a Hash with the `allow_nil` key set to true.
 
 ```ruby
 require 'environs'
