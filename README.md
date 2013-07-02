@@ -1,6 +1,11 @@
 # Environs
 [![Code Climate](https://codeclimate.com/github/primedia/environs.png)](https://codeclimate.com/github/primedia/environs)
 
+[![Coverage Status](https://coveralls.io/repos/primedia/environs/badge.png)](https://coveralls.io/r/primedia/environs)
+
+[![Dependency Status](https://gemnasium.com/primedia/environs.png)](https://gemnasium.com/primedia/environs)
+
+[![Gem Version](https://badge.fury.io/rb/environs.png)](http://badge.fury.io/rb/environs)
 
 A simple wrapper around the ENV hash that by default raises an error when value requested is not set.
 
