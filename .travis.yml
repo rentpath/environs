@@ -11,3 +11,5 @@ rvm:
 notifications:
   campfire:
     secure: "GnEk4I+ZRjW8h7x6rtZaI/2BfhErJkeELkbjamg3a4CnRQgAKzQZUNwQL8NH\nfbxmAcVSZfVPF6unw0XMY54pgO0+6Fp6fkypaV4fpDgSJEE+6QsSJxBEPN0w\n0bkXKa7/gsRpPLx6GwkQCqSAQIf+aVB0zTV7m1spMoRE40cXZss="
+    on_success: always
+    on_failure: always
