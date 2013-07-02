@@ -8,3 +8,6 @@ rvm:
   - jruby-19mode # JRuby in 1.9 mode
   - rbx-18mode
   - rbx-19mode
+notifications:
+  campfire:
+    secure: "GnEk4I+ZRjW8h7x6rtZaI/2BfhErJkeELkbjamg3a4CnRQgAKzQZUNwQL8NH\nfbxmAcVSZfVPF6unw0XMY54pgO0+6Fp6fkypaV4fpDgSJEE+6QsSJxBEPN0w\n0bkXKa7/gsRpPLx6GwkQCqSAQIf+aVB0zTV7m1spMoRE40cXZss="

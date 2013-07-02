@@ -1,5 +1,6 @@
 # Environs
 [![Code Climate](https://codeclimate.com/github/primedia/environs.png)](https://codeclimate.com/github/primedia/environs)
+[![Build Status](https://travis-ci.org/primedia/environs.png)](https://travis-ci.org/primedia/environs)
 [![Coverage Status](https://coveralls.io/repos/primedia/environs/badge.png)](https://coveralls.io/r/primedia/environs)
 [![Dependency Status](https://gemnasium.com/primedia/environs.png)](https://gemnasium.com/primedia/environs)
 [![Gem Version](https://badge.fury.io/rb/environs.png)](http://badge.fury.io/rb/environs)
