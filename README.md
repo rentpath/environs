@@ -28,9 +28,13 @@ This gem provides an `Env` class that dynamically retrieves environment variable
 ```ruby
 require 'environs'
 
-Env.foo # Returns the contents of ENV['FOO'] if set.
+ENV['FOO'] = nil
 
+Env.foo
 # => 'MissingEnvVarError "The FOO environment variable is not set."'
+
+Env.foo(allow_nil: true)
+# => nil
 ```
 
 ## Contributing
