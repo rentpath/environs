@@ -1,5 +1,5 @@
 # Environs
-[![Code Climate](https://codeclimate.com/github/primedia/environs.png)](https://codeclimate.com/github/primedia/environs)
+[![Code Climate](https://codeclimate.com/repos/51d37914c7f3a376e005daec/badges/df1a7c1a328f0eda6db1/gpa.png)](https://codeclimate.com/repos/51d37914c7f3a376e005daec/feed)
 [![Build Status](https://travis-ci.org/primedia/environs.png)](https://travis-ci.org/primedia/environs)
 [![Coverage Status](https://coveralls.io/repos/primedia/environs/badge.png?branch=dev)](https://coveralls.io/r/primedia/environs?branch=dev)
 [![Dependency Status](https://gemnasium.com/primedia/environs.png)](https://gemnasium.com/primedia/environs)
