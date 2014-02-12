@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'environs'
 
 describe Env, "#foo" do
 
