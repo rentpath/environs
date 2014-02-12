@@ -31,7 +31,7 @@
         <h1>
 <a name="environs" class="anchor" href="#environs"><span class="octicon octicon-link"></span></a>Environs</h1>
 
-<p><a href="https://codeclimate.com/github/primedia/environs"><img src="https://codeclimate.com/github/primedia/environs.png" alt="Code Climate"></a>
+<p><a href="https://codeclimate.com/repos/51d37914c7f3a376e005daec/feed"><img src="https://codeclimate.com/repos/51d37914c7f3a376e005daec/badges/df1a7c1a328f0eda6db1/gpa.png" alt="Code Climate"></a>
 <a href="https://travis-ci.org/primedia/environs"><img src="https://travis-ci.org/primedia/environs.png" alt="Build Status"></a>
 <a href="https://coveralls.io/r/primedia/environs?branch=dev"><img src="https://coveralls.io/repos/primedia/environs/badge.png?branch=dev" alt="Coverage Status"></a>
 <a href="https://gemnasium.com/primedia/environs"><img src="https://gemnasium.com/primedia/environs.png" alt="Dependency Status"></a>
@@ -62,7 +62,7 @@
 
 <p>This gem provides an <code>Env</code> class that dynamically retrieves environment variables based on the name of the method called on the <code>Env</code> class object. Method names are converted to <code>SCREAMING_SNAKE_CASE</code>, e.g. <code>Env.foo_bar</code> tries to retrieve <code>ENV['FOO_BAR']</code>. If a non-nil value is not returned for the key, then an error is raised. Nil values can be allowed by passing a Hash with the <code>allow_nil</code> key set to true.</p>
 
-<div class="highlight"><pre><span class="nb">require</span> <span class="s1">'environs'</span>
+<div class="highlight highlight-ruby"><pre><span class="nb">require</span> <span class="s1">'environs'</span>
 
 <span class="no">ENV</span><span class="o">[</span><span class="s1">'FOO'</span><span class="o">]</span> <span class="o">=</span> <span class="kp">nil</span>
 
