@@ -37,6 +37,10 @@ Env.foo(allow_nil: true)
 # => nil
 ```
 
+## Alternatives
+
+* https://github.com/jcamenisch/ENV_BANG
+
 ## Contributing
 
 1. Fork it
